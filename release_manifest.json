@@ -1,0 +1,91 @@
+{
+  "repository": "https://github.com/hennergimpel/Automated_Research_003_Platform_Openness",
+  "prepared_from": "08_Projects/003_Platform_Openness/13_Export",
+  "prepared_on": "2026-10-22",
+  "files": [
+    {
+      "path": "assumptions.md",
+      "size_bytes": 14991,
+      "sha256": "58e31ae613c0376387ac3b9ceda30958ea44c3d3e866d1c5c701d148073d5057",
+      "source": "13_Export/T009_reproducibility/assumptions.md"
+    },
+    {
+      "path": "independent_witness.json",
+      "size_bytes": 59764,
+      "sha256": "9222f0fa5d32f89dd4c16c0c3e8002301748a982ddb7d0d10118ae5ab9506481",
+      "source": "13_Export/T009_reproducibility/independent_witness.json"
+    },
+    {
+      "path": "manifest.json",
+      "size_bytes": 3062,
+      "sha256": "89f24fe809ad390c240f114c858a83abcb29fdbc21a5cef69260a16b6add4471",
+      "source": "13_Export/T009_reproducibility/manifest.json"
+    },
+    {
+      "path": "manuscript_review_v1.md",
+      "size_bytes": 8613,
+      "sha256": "e84c16587a6b0a8747a7fe8d936b468fbe479774acdda6c3cae3f74684f81b5a",
+      "source": "13_Export/T009_reproducibility/manuscript_review_v1.md"
+    },
+    {
+      "path": "paper.md",
+      "size_bytes": 25950,
+      "sha256": "994c844cef33105251ff2b4b54a66e1dd254938a81db02420ac44f979d0e59e2",
+      "source": "13_Export/T009_reproducibility/paper.md"
+    },
+    {
+      "path": "proof_review.md",
+      "size_bytes": 15013,
+      "sha256": "2162a6a249529350696cb453f0f887e997f600dc69f7933d08e907ebcd2103ab",
+      "source": "13_Export/T009_reproducibility/proof_review.md"
+    },
+    {
+      "path": "README.md",
+      "size_bytes": 2257,
+      "sha256": "18d822358371a10cae4a486ee587155e1957bb7712d2ef92730160bce3e878dd",
+      "source": "prepared for this release"
+    },
+    {
+      "path": "source_notes.md",
+      "size_bytes": 6703,
+      "sha256": "ada6554d7099b25f84d8e13259d80e9ce9de7cfdde34388e58067df442b5046d",
+      "source": "13_Export/T009_reproducibility/source_notes.md"
+    },
+    {
+      "path": "submission_metadata.md",
+      "size_bytes": 5195,
+      "sha256": "6ba0fb7ceedf46c1219137ed9678647528c8ab23a6eb87d1878bde5019af99df",
+      "source": "13_Export/T009_reproducibility/submission_metadata.md"
+    },
+    {
+      "path": "T005_results.json",
+      "size_bytes": 9965,
+      "sha256": "f4cfba65930b47d021c21257d7eee1aab195a15dce5f6e5aff27f74a560116cd",
+      "source": "13_Export/T009_reproducibility/T005_results.json"
+    },
+    {
+      "path": "T005_theory.md",
+      "size_bytes": 22276,
+      "sha256": "3e4415e4c2803aebc7382365b4ac8aa51845035c3b73cf80a942617b3018e178",
+      "source": "13_Export/T009_reproducibility/T005_theory.md"
+    },
+    {
+      "path": "T005_validation.py",
+      "size_bytes": 10964,
+      "sha256": "9e693e2e75fedc1a967eb3541ee859fa73f8e03ab1733b208c40384dbd22f9fe",
+      "source": "13_Export/T009_reproducibility/T005_validation.py"
+    },
+    {
+      "path": "T009_reproducibility.zip",
+      "size_bytes": 59893,
+      "sha256": "681ad89c3ce7c18e45a68da46cc645d07bc45171d0e26ba7acf8142bd037b1c2",
+      "source": "13_Export/T009_reproducibility.zip"
+    },
+    {
+      "path": "workflow.md",
+      "size_bytes": 13162,
+      "sha256": "2e56a5de4c501ee9050bb5a1395ce24238a5341841a1f06ccdd358c9f990ae4c",
+      "source": "13_Export/T009_reproducibility/workflow.md"
+    }
+  ]
+}

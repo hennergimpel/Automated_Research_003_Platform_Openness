@@ -1,0 +1,428 @@
+{
+  "task_id": "T005_derivation",
+  "status": "producer_derivation_complete_pending_independent_proof_review",
+  "scope": "New global continuum proofs in theory; finite exact supporting calculations here; unchanged independent witness reused",
+  "environment": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "executable": "python.exe",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "third_party_libraries": [],
+    "arithmetic": "fractions.Fraction exact; Decimal precision 50 only for threshold radicals",
+    "random_seed": null,
+    "numerical_tolerance": null
+  },
+  "parameters": {
+    "M": {
+      "exact": "1",
+      "float": 1.0
+    },
+    "h": {
+      "exact": "1",
+      "float": 1.0
+    },
+    "l": {
+      "exact": "1",
+      "float": 1.0
+    },
+    "o": {
+      "exact": "1",
+      "float": 1.0
+    },
+    "v": {
+      "exact": "1",
+      "float": 1.0
+    },
+    "w": {
+      "exact": "1/10",
+      "float": 0.1
+    },
+    "d": {
+      "exact": "1/50",
+      "float": 0.02
+    },
+    "k": {
+      "exact": "1/200",
+      "float": 0.005
+    },
+    "t": {
+      "exact": "1",
+      "float": 1.0
+    },
+    "c": {
+      "exact": "1",
+      "float": 1.0
+    },
+    "E": {
+      "exact": "3/5",
+      "float": 0.6
+    },
+    "V": {
+      "exact": "4",
+      "float": 4.0
+    }
+  },
+  "deltas": {
+    "segmented": {
+      "exact": "-7/75",
+      "float": -0.09333333333333334
+    },
+    "pooled": {
+      "exact": "9/200",
+      "float": 0.045
+    },
+    "D_max": {
+      "exact": "7/75",
+      "float": 0.09333333333333334
+    }
+  },
+  "domain_margins": {
+    "B_minus_2": {
+      "exact": "7",
+      "float": 7.0
+    },
+    "t_minus_Dmax_minus_E": {
+      "exact": "23/75",
+      "float": 0.30666666666666664
+    },
+    "positive_effort_domain": {
+      "exact": "56/25",
+      "float": 2.24
+    },
+    "upper_effort_slack": {
+      "exact": "19/75",
+      "float": 0.25333333333333335
+    },
+    "reservation_slack": {
+      "exact": "1",
+      "float": 1.0
+    },
+    "profit_lower_bound": {
+      "exact": "727/1800",
+      "float": 0.4038888888888889
+    },
+    "negative_delta_S": {
+      "exact": "7/75",
+      "float": 0.09333333333333334
+    },
+    "positive_delta_P": {
+      "exact": "9/200",
+      "float": 0.045
+    },
+    "strict_pooled_dominance": {
+      "exact": "5869/490000",
+      "float": 0.011977551020408162
+    }
+  },
+  "new_price_checks": {
+    "selected_mobility": [
+      {
+        "exact": "0",
+        "float": 0.0
+      },
+      {
+        "exact": "1/2",
+        "float": 0.5
+      },
+      {
+        "exact": "1",
+        "float": 1.0
+      }
+    ],
+    "selected_efforts": [
+      {
+        "exact": "0",
+        "float": 0.0
+      },
+      {
+        "exact": "3/20",
+        "float": 0.15
+      },
+      {
+        "exact": "3/10",
+        "float": 0.3
+      },
+      {
+        "exact": "9/20",
+        "float": 0.45
+      },
+      {
+        "exact": "3/5",
+        "float": 0.6
+      }
+    ],
+    "unilateral_deviation_problems": 600,
+    "candidate_evaluations": 3870,
+    "all_affine_pieces_exhausted_per_problem": true,
+    "max_improvement": {
+      "exact": "0",
+      "float": 0.0
+    },
+    "largest_offpath_quality_gap": {
+      "exact": "52/75",
+      "float": 0.6933333333333334
+    },
+    "case_digest_sha256": "0dafccfe3a75671a39dd575a85dacde182151f4a5e1006009cff15b3fa17b1e4",
+    "limitation": "Finite selection of quality pairs; not a substitute for L1 or a proof by grid"
+  },
+  "new_effort_checks": {
+    "unilateral_deviation_problems": 24,
+    "global_endpoints_and_vertex_per_problem": true,
+    "max_improvement": {
+      "exact": "0",
+      "float": 0.0
+    }
+  },
+  "polynomial_in_D_checks_at_rational_parameters": [
+    {
+      "t": {
+        "exact": "1",
+        "float": 1.0
+      },
+      "c": {
+        "exact": "1",
+        "float": 1.0
+      },
+      "coefficients_K_A_C": [
+        {
+          "exact": "4/9",
+          "float": 0.4444444444444444
+        },
+        {
+          "exact": "8/21",
+          "float": 0.38095238095238093
+        },
+        {
+          "exact": "4/49",
+          "float": 0.08163265306122448
+        }
+      ],
+      "residuals": [
+        {
+          "exact": "0",
+          "float": 0.0
+        },
+        {
+          "exact": "0",
+          "float": 0.0
+        },
+        {
+          "exact": "0",
+          "float": 0.0
+        }
+      ]
+    },
+    {
+      "t": {
+        "exact": "2",
+        "float": 2.0
+      },
+      "c": {
+        "exact": "1",
+        "float": 1.0
+      },
+      "coefficients_K_A_C": [
+        {
+          "exact": "17/18",
+          "float": 0.9444444444444444
+        },
+        {
+          "exact": "17/48",
+          "float": 0.3541666666666667
+        },
+        {
+          "exact": "17/512",
+          "float": 0.033203125
+        }
+      ],
+      "residuals": [
+        {
+          "exact": "0",
+          "float": 0.0
+        },
+        {
+          "exact": "0",
+          "float": 0.0
+        },
+        {
+          "exact": "0",
+          "float": 0.0
+        }
+      ]
+    },
+    {
+      "t": {
+        "exact": "3/2",
+        "float": 1.5
+      },
+      "c": {
+        "exact": "4/3",
+        "float": 1.3333333333333333
+      },
+      "coefficients_K_A_C": [
+        {
+          "exact": "17/24",
+          "float": 0.7083333333333334
+        },
+        {
+          "exact": "17/48",
+          "float": 0.3541666666666667
+        },
+        {
+          "exact": "17/384",
+          "float": 0.044270833333333336
+        }
+      ],
+      "residuals": [
+        {
+          "exact": "0",
+          "float": 0.0
+        },
+        {
+          "exact": "0",
+          "float": 0.0
+        },
+        {
+          "exact": "0",
+          "float": 0.0
+        }
+      ]
+    },
+    {
+      "t": {
+        "exact": "1",
+        "float": 1.0
+      },
+      "c": {
+        "exact": "1/2",
+        "float": 0.5
+      },
+      "coefficients_K_A_C": [
+        {
+          "exact": "7/18",
+          "float": 0.3888888888888889
+        },
+        {
+          "exact": "7/15",
+          "float": 0.4666666666666667
+        },
+        {
+          "exact": "7/50",
+          "float": 0.14
+        }
+      ],
+      "residuals": [
+        {
+          "exact": "0",
+          "float": 0.0
+        },
+        {
+          "exact": "0",
+          "float": 0.0
+        },
+        {
+          "exact": "0",
+          "float": 0.0
+        }
+      ]
+    }
+  ],
+  "accepted_exact_evidence_reused": {
+    "segmented": {
+      "gain_against_S": {
+        "exact": "-1793/45000",
+        "float": -0.039844444444444446
+      },
+      "gain_against_F": {
+        "exact": "-619/15000",
+        "float": -0.04126666666666667
+      },
+      "symmetric_q_change": {
+        "exact": "-7/75",
+        "float": -0.09333333333333334
+      }
+    },
+    "pooled": {
+      "gain_against_S": {
+        "exact": "6031/490000",
+        "float": 0.012308163265306123
+      },
+      "gain_against_F": {
+        "exact": "5869/490000",
+        "float": 0.011977551020408162
+      },
+      "symmetric_q_change": {
+        "exact": "-7/75",
+        "float": -0.09333333333333334
+      }
+    },
+    "fixed_local_leisure_pooled": {
+      "gain_against_S": {
+        "exact": "493261/36015000",
+        "float": 0.01369598778286825
+      },
+      "gain_against_F": {
+        "exact": "479389/36015000",
+        "float": 0.013310814938220186
+      },
+      "symmetric_q_change": {
+        "exact": "-61/450",
+        "float": -0.13555555555555557
+      }
+    }
+  },
+  "fixed_outside_theorem": {
+    "delta_fixed": {
+      "exact": "17/350",
+      "float": 0.04857142857142857
+    },
+    "continuation_Dmax": {
+      "exact": "7/75",
+      "float": 0.09333333333333334
+    },
+    "cross_institution_quality_change": {
+      "exact": "-31/450",
+      "float": -0.06888888888888889
+    },
+    "within_pooled_quality_change_reused": {
+      "exact": "-61/450",
+      "float": -0.13555555555555557
+    },
+    "exact_symmetric_matching": false
+  },
+  "mobility_thresholds": {
+    "precision_decimal_digits": 50,
+    "zero_cost_mu": "0.67469879518072289156626506024096385542168674698797",
+    "positive_cost_delta_0": "0.013088292130522734995665721199077781125680500196348",
+    "positive_cost_delta_1": "0.013162123175676790301841088654587475050588275095828",
+    "positive_cost_mu_0": "0.76931295516040531322167991228248998404106385684108",
+    "positive_cost_mu_1": "0.76984667355910932748318859268376487988377066334334"
+  },
+  "known_failure_cases": [
+    {
+      "case": "w=d=0",
+      "pooled_opening_gains": "-k against either rival",
+      "status": "analytic identity"
+    },
+    {
+      "case": "w>=2vh/Z",
+      "customer_harm": false,
+      "status": "analytic inequality for d>=0"
+    },
+    {
+      "case": "k>=A*delta_P-C*delta_P^2",
+      "strict_full_dominance": false,
+      "status": "analytic inequality"
+    },
+    {
+      "case": "prior linear demand beta=lambda=0.5",
+      "status": "preserved provisional result only; no global continuation certification; effort bound active"
+    }
+  ],
+  "hashes": {
+    "script_sha256": "9e693e2e75fedc1a967eb3541ee859fa73f8e03ab1733b208c40384dbd22f9fe",
+    "theory_sha256": "3e4415e4c2803aebc7382365b4ac8aa51845035c3b73cf80a942617b3018e178",
+    "accepted_witness_sha256": "9222f0fa5d32f89dd4c16c0c3e8002301748a982ddb7d0d10118ae5ab9506481",
+    "immutable_model_sha256": "58e31ae613c0376387ac3b9ceda30958ea44c3d3e866d1c5c701d148073d5057",
+    "immutable_review_sha256": "2162a6a249529350696cb453f0f887e997f600dc69f7933d08e907ebcd2103ab"
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "portable_adapter": {
+    "source_script_sha256": "3572196164d24347338caea295e1dfbd5d1d4f2efa69710b739e6706ec34b4e7",
+    "adapted_script_sha256": "9e693e2e75fedc1a967eb3541ee859fa73f8e03ab1733b208c40384dbd22f9fe",
+    "witness_sha256": "9222f0fa5d32f89dd4c16c0c3e8002301748a982ddb7d0d10118ae5ab9506481",
+    "numeric_fields_identical_to_frozen": [
+      "task_id",
+      "status",
+      "scope",
+      "parameters",
+      "deltas",
+      "domain_margins",
+      "new_price_checks",
+      "new_effort_checks",
+      "polynomial_in_D_checks_at_rational_parameters",
+      "accepted_exact_evidence_reused",
+      "fixed_outside_theorem",
+      "mobility_thresholds",
+      "known_failure_cases"
+    ],
+    "changes": [
+      "relative local dependency paths",
+      "executable basename",
+      "local scientific hash targets"
+    ]
+  },
+  "review_status": "Version 1 integrated manuscript passed focused AI scientific review; version 2 is an editorial update reusing unchanged accepted science, without a new scientific review",
+  "files": {
+    "assumptions.md": "58e31ae613c0376387ac3b9ceda30958ea44c3d3e866d1c5c701d148073d5057",
+    "independent_witness.json": "9222f0fa5d32f89dd4c16c0c3e8002301748a982ddb7d0d10118ae5ab9506481",
+    "manuscript_review_v1.md": "e84c16587a6b0a8747a7fe8d936b468fbe479774acdda6c3cae3f74684f81b5a",
+    "paper.md": "994c844cef33105251ff2b4b54a66e1dd254938a81db02420ac44f979d0e59e2",
+    "proof_review.md": "2162a6a249529350696cb453f0f887e997f600dc69f7933d08e907ebcd2103ab",
+    "README.md": "cf84367d430ec888b1db9a9ef49f61e8b41bf0fc529e3ace7c4b5435fe782fcc",
+    "source_notes.md": "ada6554d7099b25f84d8e13259d80e9ce9de7cfdde34388e58067df442b5046d",
+    "submission_metadata.md": "6ba0fb7ceedf46c1219137ed9678647528c8ab23a6eb87d1878bde5019af99df",
+    "T005_results.json": "f4cfba65930b47d021c21257d7eee1aab195a15dce5f6e5aff27f74a560116cd",
+    "T005_theory.md": "3e4415e4c2803aebc7382365b4ac8aa51845035c3b73cf80a942617b3018e178",
+    "T005_validation.py": "9e693e2e75fedc1a967eb3541ee859fa73f8e03ab1733b208c40384dbd22f9fe",
+    "workflow.md": "2e56a5de4c501ee9050bb5a1395ce24238a5341841a1f06ccdd358c9f990ae4c"
+  },
+  "version": "2",
+  "editorial_revision": {
+    "brief_body_abstract": true,
+    "discussion_limitations": true,
+    "analysis_rerun": false,
+    "unchanged_validated_analysis": {
+      "assumptions.md": "58e31ae613c0376387ac3b9ceda30958ea44c3d3e866d1c5c701d148073d5057",
+      "independent_witness.json": "9222f0fa5d32f89dd4c16c0c3e8002301748a982ddb7d0d10118ae5ab9506481",
+      "proof_review.md": "2162a6a249529350696cb453f0f887e997f600dc69f7933d08e907ebcd2103ab",
+      "source_notes.md": "ada6554d7099b25f84d8e13259d80e9ce9de7cfdde34388e58067df442b5046d",
+      "T005_results.json": "f4cfba65930b47d021c21257d7eee1aab195a15dce5f6e5aff27f74a560116cd",
+      "T005_theory.md": "3e4415e4c2803aebc7382365b4ac8aa51845035c3b73cf80a942617b3018e178",
+      "T005_validation.py": "9e693e2e75fedc1a967eb3541ee859fa73f8e03ab1733b208c40384dbd22f9fe"
+    }
+  }
+}
